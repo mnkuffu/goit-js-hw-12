@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '';
+const API_KEY = '52310861-2b937f02bf96ae9d966886b68';
 
 // Get images from Pixabay API by query and page
 export async function getImagesByQuery(query, page) {
