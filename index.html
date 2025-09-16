@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Search</title>
+    <!-- Google Fonts for Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main stylesheet -->
+    <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-df5IXrWy.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-BQ5M49_K.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form class="form">
+          <label>
+            <input
+              type="text"
+              name="search-text"
+              placeholder="Search images..."
+              required
+            />
+          </label>
+          <!-- Submit button -->
+          <button class="btn" type="submit">Search</button>
+        </form>
+        <!-- Loader text, hidden by default -->
+        <span class="loader-text is-hidden"
+          >Loading images, please wait...</span
+        >
+        <!-- Gallery container -->
+        <ul class="gallery"></ul>
+
+        <!-- Loader spinner, hidden by default -->
+        <span class="loader is-hidden"></span>
+        <!-- Load More button, hidden by default -->
+        <button class="load-more is-hidden" type="button">Load more</button>
+      </div>
+    </main>
+    <!-- Main JS module -->
+  </body>
+</html>
